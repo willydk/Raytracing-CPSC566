@@ -3,7 +3,7 @@ Assignment 3 -- README
 After Debugging the program, it will create a folder call "Debug" inside the folder of wong.weesiang_asgt3
 and will create an executable file in that folder, go to the command prompt and locate that folder, 
 wong.weesiang_asgt2/Debug and pu the scene folder in that Debug folder so that the user can simply type in 
-raytracer.exe <inputFile> <outputFile> <resolution> // since assignment 3 does not require depth file, 
+raytracer.exe <inputFile> <outputFile.ppm> <resolution> // since assignment 3 does not require depth file, 
 so I simply comment everything that relates to creating the depth image.
 It takes the system some time to run the program if the resolution is at a high value
 Vector.h is taken from Justin Leggkis, this files basically does all the vector calculations (dot/cross/normalize, etc.)

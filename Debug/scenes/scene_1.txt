@@ -1,0 +1,61 @@
+
+PerspectiveCamera {
+    
+	center 0 0 20 
+    
+	direction 0 0 -1
+    
+	up 0 1 0
+    
+	angle 30
+
+}
+
+
+
+Lights {
+    
+	numLights 2
+    
+	PointLight {
+        
+		position 2 1 -7
+		color 1 1 1    }
+
+	PointLight {
+        
+		position 2 1 7
+		color 1 1 1    }
+
+}
+
+
+
+Background {
+    
+	color 1 0.4 0
+    
+	ambientLight 0.1 0.1 0.1 
+
+}
+
+
+Group {
+    
+	numObjects 2    
+	Material { diffuseColor 1 0 0 }
+    
+	Sphere {
+	
+		center 0 0 10 
+        
+		radius .55
+	}
+
+    
+	Material { diffuseColor .4 .2 0 }
+	Plane { 
+		normal 0 1 0 
+		offset -.5 
+	}	
+}
